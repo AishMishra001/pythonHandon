@@ -23,3 +23,12 @@ Byte Code is not a Machine code
 
 Python specific interpretation 
 cpython ( standard implementation ) , jython ( java platform ) , Iron python ( .NET platform ) , stackless ( lightweight threads ) , pypy ( just in time compilation ) 
+
+## Mutable vs Immutable & Memory Allocation
+
+![Mutable vs Immutable Memory Allocation](assets/python-mutable-immutable-memory.png)
+
+### Notes:
+- **Immutable:** When a memory block is created, it cannot be changed (e.g., Integer, Float, Boolean, String, Tuple, Frozen Set, Bytes).
+- **Mutable:** Memory inside the memory block can change (e.g., List, Set, Dictionary, Bytearray, Array).
+- **Reference assignment:** Variables point to references in memory rather than containing values directly. When reassigned (e.g., `y = 15`), the variable references a new memory block.
