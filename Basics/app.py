@@ -1,6 +1,14 @@
 print("Hello World")
 
-def app(n):
+def app_modulo(n):
     print(n)
 
-app(10)
+app_modulo(10)
+
+
+name1 = "aish"
+
+name2 = "kiran"
+
+name3 = "pooja"
+
